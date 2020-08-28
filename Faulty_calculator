@@ -1,0 +1,21 @@
+n1 = int(input("Enter first num \n"))
+n2 = int(input("Enter second num \n"))
+op = input("Select operator + , - , * , / \n")
+
+if op == '+':
+    if n1 == 56 and n2 == 4:
+        print(n1, "+", n2 ," is","77")
+    else:
+        print(n1, "+", n2 ," is",n1+n2)
+elif op == '-':
+    if n1 == 45 and n2 == 5:
+        print(n1, "-", n2 ," is",50)
+    else:
+        print(n1, "-", n2 ," is",n1-n2)
+elif op == '*':
+    if n1 == 55 and n2 == 7:
+        print(n1, "*", n2 ," is",444)
+    else:
+        print(n1, "*", n2 ," is",n1*n2)
+else:
+    print(n1, "/", n2 ," is",n1/n2)
