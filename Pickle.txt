@@ -1,0 +1,16 @@
+# pickle module in python 
+
+
+import pickle
+# pickling a python object
+# cars = ["audi", "lambo urus", "bmw", "ducati"]
+# file = "mycar.pkl"
+# fileobj = open(file, 'wb')
+# pickle.dump(cars, fileobj)
+# fileobj.close()
+
+file = "mycar.pkl"
+fileobj = open(file, 'rb')
+mycar = pickle.load(fileobj)
+print(mycar)
+print(type(mycar))
