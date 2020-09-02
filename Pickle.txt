@@ -1,5 +1,6 @@
 # pickle module in python 
-
+# usesd for serializing or deserializing python objects 
+# i.e. converting python objects ( list, dict, set ..etcc .. ) into a byte stream (1's and 0's) 
 
 import pickle
 # pickling a python object
