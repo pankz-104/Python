@@ -1,0 +1,11 @@
+using pyinstaller module 
+
+pip install pyinstaller 
+pyinstaller filename.py / .txt ...  ex : pyinstaller main.txt
+some folders created .. go to dist main 
+run .\main.exe 
+
+
+|| for single file 
+pyinstaller --onefile file.py 
+
